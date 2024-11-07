@@ -79,7 +79,7 @@
        <div class="carousel w-full h-[550px] bg-bike-bg">
         <!-- Slide 1 -->
         <div id="slide1" class="carousel-item relative w-full">
-         <div class="flex p-24">
+         <div class="flex flex-col lg:flex-row p-4 lg:p-24">
             <div class="flex-1 space-y-7" >
                 <h2 class="text-6xl font-bold">Ride-on R15 V4 <br>
                      with Smile</h2>
@@ -168,7 +168,7 @@
          <section class="my-24">
             <h2 class="text-5xl font-semibold text-center mb-16">Featured Bikes In This Year</h2>
             
-            <div class="flex flex-col md:flex-row gap-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                 <div class="grayscale"><img src="images/others/feature-bike.png" alt=""></div>
              <div class=""><img src="images/others/feature-bike.png" alt=""></div>
              <div class="grayscale"><img src="images/others/feature-bike.png" alt=""></div>
@@ -178,7 +178,7 @@
           <section>
             <h2 class="text-5xl font-semibold text-center mb-16">Latest News</h2>
             
-            <div class="flex flex-col md:flex-row gap-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                 <!-- card 1 -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure>
@@ -187,7 +187,7 @@
                         alt="" />
                     </figure>
                     <div class="card-body">
-                      <h2 class="card-title text-[28px] font-semibold">Ducati XDIAVEL S-73</h2>
+                      <h2 class="card-title text-[28px] font-semibold mb-2">Ducati XDIAVEL S-73</h2>
                       <p>The XDiavel S is the first Ducati to use belt final drive. A must in the cruiser world, the system was developed for the XDiavel S by Ducati engineers.</p>
                       <div class="card-actions">
                         <button class="btn bg-bike-primary text-white">Buy Now</button>
@@ -202,7 +202,7 @@
                         alt="" />
                     </figure>
                     <div class="card-body">
-                      <h2 class="card-title text-[28px] font-semibold">Motorcycles & Scooters</h2>
+                      <h2 class="card-title text-[28px] font-semibold mb-2">Motorcycles & Scooters</h2>
                       <p>The XDiavel S is the first Ducati to use belt final drive. A must in the cruiser world, the system was developed for the XDiavel S by Ducati engineers.</p>
                       <div class="card-actions">
                         <button class="btn bg-bike-primary text-white">Buy Now</button>
@@ -217,7 +217,7 @@
                         alt="" />
                     </figure>
                     <div class="card-body">
-                      <h2 class="card-title text-[28px] font-semibold">2021 Honda CBR500R</h2>
+                      <h2 class="card-title text-[28px] font-semibold mb-2">2021 Honda CBR500R</h2>
                       <p>The Honda CBR S is the first Ducati to use belt final drive. A must in the cruiser world, the system was developed for the XDiavel S by Ducati engineers.</p>
                       <div class="card-actions">
                         <button class="btn bg-bike-primary text-white">Buy Now</button>
@@ -229,9 +229,127 @@
           <!-- Review section -->
          <section class="my-24">
             <h2 class="text-5xl font-semibold text-center mb-16">Happy <span class="text-bike-primary">Clients Says</span></h2>
-            
-
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <!-- Review 1 -->
+                <div class="card bg-base-100 p-9 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img class="w-36"
+                        src="images/others/user-1.png"
+                        alt=""
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <p>Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class="rating">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input
+                            type="radio"
+                            name="rating-2"
+                            class="mask mask-star-2 bg-orange-400"
+                           />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400  checked="checked />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                      <p class="text-[14px] font-semibold text-blue-400">Regina Miles</p>
+                      <p class="text-[14px] font-semibold">Banker</p>
+                    </div>
+                  </div>
+                  <!-- Second Review -->
+                  <div class="card bg-base-100 p-9  shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img class="w-36"
+                        src="images/others/user-2.png"
+                        alt=""
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <p>Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class="rating">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input
+                            type="radio"
+                            name="rating-2"
+                            class="mask mask-star-2 bg-orange-400"
+                           />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 checked="checked />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                      <p class="text-[14px] font-semibold text-blue-400">Regina Miles</p>
+                      <p class="text-[14px] font-semibold">Banker</p>
+                    </div>
+                  </div>
+                  <!-- Third Review -->
+                  <div class="card bg-base-100 p-9 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img class="w-36"
+                        src="images/others/user-3.png"
+                        alt=""
+                        class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <p>Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class="rating mb-2">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input
+                            type="radio"
+                            name="rating-2"
+                            class="mask mask-star-2 bg-orange-400"
+                           />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400  checked="checked />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                      <p class="text-[14px] font-semibold text-blue-400">Regina Miles</p>
+                      <p class="text-[14px] font-semibold">Banker</p>
+                    </div>
+                  </div>
+            </div>
          </section>
+         <!-- FAQ Section -->
+          <section class="my-24">
+            <h2 class="text-5xl font-semibold text-center mb-16">Frequently Asked <span class="text-bike-primary">Questions</span></h2>
+            <div class="hero">
+              <div class="hero-content flex-col lg:flex-row gap-20">
+              <img class="w-full rounded-lg shadow-2xl" src="images/others/faq.png" alt="">
+              
+              <div class="space-y-5">
+                <div class="collapse collapse-arrow bg-base-200">
+                  <input type="radio" name="my-accordion-2" checked="checked" />
+                  <div class="collapse-title text-xl font-medium">What are the most important things I should
+                    know about riding a bike?</div>
+                  <div class="collapse-content">
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200">
+                  <input type="radio" name="my-accordion-2" />
+                  <div class="collapse-title text-xl font-medium"> My bike has been in storage is it safe to ride?</div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200">
+                  <input type="radio" name="my-accordion-2" />
+                  <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
     </main>
     <footer>
